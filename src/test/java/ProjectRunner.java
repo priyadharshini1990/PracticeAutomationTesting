@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
         glue = ".",
         dryRun = false,
         monochrome = true,
-        tags= "@Smoke or @Newness or @FunctionalTesting or @EndToEndTesting ",
-        //tags="@EndToEndTesting",
+        //tags= "@Smoke or @Newness or @FunctionalTesting or @EndToEndTesting ",
+        tags="@RememberMe1",
         plugin = {"pretty",
                 "html:target/PracticeAutomation.html",
                 "json:target/PracticeAutomation.json"}

@@ -12,12 +12,10 @@ Feature:RememberMe Functionality
     And   password "Practice.automation@testing"
     Then  User clicks on RememberMe checkbox
     Then  User clicks on Login Button
-    When  User logged in verify it displays Dashboard
-    #Then  User close the Browser
-    Then  User opens the new tab and enters URL "https://practice.automationtesting.in/"
-    #Given User opens the Browser
-    #Then  User enters URL "https://practice.automationtesting.in/",application page should be displayed
-    #Then  User clicks on My Account Menu
+    Then  User opens the new tab
+    Then  User switch to previous window and closed it
+    Then  User enters URL "https://practice.automationtesting.in/",application page should be displayed
+    Then  User clicks on My Account Menu
 
   @RememberMe2 @FunctionalTesting
   Scenario: Verify RememberMe
